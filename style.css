@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center; /* Align vertically in center */
+    align-items: center; /* Align horizontally in center */
+    height: 100vh;
+  background-image: url("background.jpg"); /* Replace with your image path */
+  background-repeat: no-repeat; /* Prevents image repetition */
+  background-size: cover; /* Adjusts image to fit container */
+  background-position: center; /* Centers image horizontally */
+}
+  
+  .container {
+    text-align: center;
+    background-color: rgb(53,56,57);
+    color:white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px; /* Add space between containers */
+  }
+  
+  button {
+    border: 2px solid black; /* Blue border */
+    color: black;
+    background-color: silver;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: rgb(53,56,57); /* Light gray background on hover */
+    color: silver; /* Darker blue text on hover */
+  }
+  input[type="text"] {
+    background-color: #fff; /* White background */
+    border: 1px solid rgb(205, 183, 107); /* Warm gold border */
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  input[type="text"]:focus {
+    border-color: rgb(227, 209, 131); /* Lighter gold on focus */
+    outline: none;
+  }
